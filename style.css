@@ -13,7 +13,7 @@
   }
   
   html {
-    background: linear-gradient(180deg, rgb(24, 146, 140) 0%, #87a2a3 100%);
+    background: linear-gradient(180deg, rgb(54, 136, 156) 0%, #87a2a3 100%);
   }
   
 nav {
@@ -72,7 +72,7 @@ nav {
   }
   
   #banner-camada {
-    background-image:url(images/sobre/medica-maos.jpg);
+    background-image:url(images/carrossel/laboratorio.jpg); /*quando trocar da foto do laboratório, trocar a cor do título*/
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
