@@ -1,0 +1,21 @@
+
+.cabecalho {
+    display: flex;
+    width: 100%;
+}
+
+.cabecalho__logo {
+    width: 3rem;
+}
+
+.cabecalho__lista-navegacao {
+    display: flex;
+}
+
+.cabecalho__link {
+    margin-left: 2rem;
+}
+
+.registro-banner{
+    width:100%;
+}

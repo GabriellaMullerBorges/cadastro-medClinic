@@ -1,0 +1,60 @@
+
+.textarea {
+    box-sizing: border-box;
+    border: 1px solid;
+    padding: 0.5rem;    
+    border-radius: 7px;
+    width: 100%;
+    min-height: 3rem;
+  }
+  
+  .textarea-container {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .textarea::placeholder {
+    visibility: hidden;
+  }
+  
+  .textarea:focus {
+    outline: none;
+  }
+  
+  .textarea-label {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    transition: all 0.25s;
+  }
+  
+  .textarea:not(:placeholder-shown) + .textarea-label, .textarea:focus + .textarea-label {
+    font-size: 0.875rem;
+    top: -1.25rem;
+    transition: all 0.25s;
+  }
+  
+  .textarea-container--invalido {
+    margin-bottom: 0.5rem;
+  }
+  
+  .textarea-container--invalido .textarea {
+    border: 1px solid red;
+  }
+  
+  .textarea-container--invalido .textarea-label {
+    color: red;
+  }
+  
+  .textarea-mensagem-erro {
+    display: none;
+  }
+  
+  .textarea-container--invalido .textarea-mensagem-erro {
+    display: block;
+    color: red;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  

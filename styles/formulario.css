@@ -1,0 +1,40 @@
+  
+  .registro-container-cadastro{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .registro-form {
+    background-color: #fdfdfd;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border-radius:50px;
+    padding: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .registro-form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+  }
+
+  .registro-form p {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #aaa;
+    font-size: 0.8rem;
+  }
+
+  .formulario {
+    margin-top: 2rem;
+}
+
+.formulario__legenda {
+    font-size: 22px;
+
+    margin-bottom: 1rem;
+}

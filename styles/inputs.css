@@ -1,0 +1,24 @@
+
+.input {
+  width: 100% !important;
+  margin: 1rem 0 1rem 0 ;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input:not(:placeholder-shown) + .input-label, .input:focus + .input-label {
+  font-size: 0.875rem;
+  top: 0.25rem;
+  transition: all .25s;
+}
+
+.input-container {
+  font-weight: var(--fonte-peso-input);
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}

@@ -1,0 +1,26 @@
+
+.input-container--invalido {
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-container--invalido .input {
+    border: 1px solid red;
+    border-radius: 7px;
+  }
+  
+  .input-container--invalido .input-label {
+    color: red;
+  }
+  
+
+  .input-container--invalido .input-mensagem-erro {
+    color: red;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  .input-mensagem-erro {
+    display:none;
+  }
+  

@@ -1,0 +1,39 @@
+ 
+nav {
+    display: flex;
+    width:100%;
+    background-color: #fafafa;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+  }
+  
+  .lista-nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width:100%;
+    margin:0.8rem 5rem;
+    align-items: center;
+  }
+  
+  .lista-nav li{
+    width:fit-content; 
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  
+  
+  .lista-nav li a{
+    text-decoration: none;
+  }
+  
+  .logo-medclinic{
+    scale: 0.5;
+    width: fit-content;
+  }
+  
+  .logo-user{
+    height: 20px;
+    width: 20px;
+  }

@@ -1,0 +1,45 @@
+* {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  body { 
+    background: linear-gradient(180deg, rgb(54, 136, 156) 0%, #87a2a3 100%); /* LUGAR ERRADo*/
+  }
+
+  .fieldset {
+    display: flex;
+  }
+
+  
+.container { 
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex--centro {
+	align-items: center;
+	justify-content: center;
+}
+
+.flex--coluna {
+	flex-direction: column;
+}
+
+@media(min-width: 800px) {
+  .container {
+		padding-right: 2.5rem;
+		padding-left: 2.5rem;	
+	}
+}
+
+@media(min-width: 1200px) {
+	.container {
+		padding-left: calc((100vw - 900px)/2);
+		padding-right: calc((100vw - 900px)/2);
+	}
+}

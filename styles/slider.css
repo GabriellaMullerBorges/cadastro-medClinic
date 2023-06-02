@@ -1,0 +1,22 @@
+.registro-banner {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner-camada {
+    background-image:url(../images/carrossel/laboratorio.jpg); /*quando trocar da foto do laboratório, trocar a cor do título*/
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 3.5rem;
+  }
+
+  .registro-banner h1 {
+    font-size: 4rem;
+  }
