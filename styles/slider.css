@@ -1,22 +1,27 @@
-.registro-banner {
-    width: 100%;
-    height: 80vh;
+
+.registro-banner{
+  width:100%;
+  height: 600px;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+  .slider{
+    margin: 0 auto;
+    width: clamp(767px 900px 2100px);
+    height: 600px;
+    overflow: hidden;
+  }
+
+  .slides{
+    width:400%;
+    height: 600px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+}
 
-  .banner-camada {
-    background-image:url(../images/carrossel/laboratorio.jpg); /*quando trocar da foto do laboratório, trocar a cor do título*/
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 100%;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 3.5rem;
-  }
-
-  .registro-banner h1 {
-    font-size: 4rem;
-  }
+.slides input{
+ display: none;
+}

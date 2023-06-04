@@ -34,7 +34,15 @@
 }
 
 .formulario__legenda {
-    font-size: 22px;
-
+    font-size: 30px;
     margin-bottom: 1rem;
+}
+
+.registro-cadastro{
+  font-size: 30px;
+}
+
+.info-cadastro{
+  font-size: 22px !important;
+  line-height: 26px;
 }

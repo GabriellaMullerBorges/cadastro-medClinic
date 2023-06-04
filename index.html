@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="styles/inputs.css"/>
     <link rel="stylesheet" href="styles/nav.css"/>
     <link rel="stylesheet" href="styles/slider.css"/>
+    <link rel="stylesheet" href="styles/slides.css"/>
     <link rel="stylesheet" href="styles/textarea.css"/>
   </head>
   <body>  
@@ -34,15 +35,60 @@
       </ul>
     </nav> 
     <main>
-        <div class="registro-banner cabecalho">
-            <div class="banner-camada">
-              <h1>Seja bem-vindo</h1>
+        <div class="registro-banner">
+          
+          <div class="slider">
+
+            <div class="slides">
+
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
+              <input type="radio" name="radio-btn" id="radio4">
+
+              <div class="slide first">
+                <img src="https://img.freepik.com/free-photo/flat-lay-health-still-life-arrangement-with-copy-space_23-2148854064.jpg?w=1060&t=st=1685816314~exp=1685816914~hmac=7d2736b757665f3bc183063fbee7fe0855ed953fd762d0ed3ca2d4d52b603f5d" alt="imagem prancheta"> 
+                <div class="slide-text">
+                  <p class="slide-text" id="texto-apresentacao1"> Bem-vindo à MedClinic</p>
+                </div>
+              </div>
+
+              <div class="slide"> 
+                <img src="https://img.freepik.com/free-photo/doctor-crossing-arms-while-holding-stethoscope-white-coat_176474-8491.jpg?w=996&t=st=1685816179~exp=1685816779~hmac=8544f041993fc6d5f56488912bffbd52e92bc30acda03794fbd83b93e2468738" alt="imagem de médico">
+                <div class="slide-text">
+                  <p class="slide-text" id="texto-apresentacao2"> Serviço médico online de qualidade</p>
+                </div>
+              </div>
+
+              <div class="slide">
+                <img src="https://img.freepik.com/free-photo/covid-recovery-center-female-doctor-holding-older-patient-s-hands_23-2148847832.jpg?w=996&t=st=1685816237~exp=1685816837~hmac=eb42dbc8dc41a868cb9e2cab681dacb5e17e428782b70986e8225b7c8a7ace43" alt="imagem de laboratório">
+                <div class="slide-text">
+                  <p class="slide-text" id="texto-apresentacao3"> Promovendo a saúde mental</p>
+                </div>
+              </div>
+
+              <div class="slide">
+                <img src="https://img.freepik.com/free-photo/young-handsome-physician-medical-robe-with-stethoscope_1303-17818.jpg?w=996&t=st=1685816262~exp=1685816862~hmac=05c327fae710986268abde649f18d2b45617492a59920a7e46aabcb6c813dc94" alt="imagem prancheta">
+                <div class="slide-text">
+                  <p class="slide-text" id="texto-apresentacao3"> Profissionais com foco em você</p>
+                </div>
+              </div>
             </div>
+
+            <div class="manual-navigation">  
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>       
+              <label for="radio4" class="manual-btn"></label> 
+            </div>
+
+          </div>
+
         </div>
         <section class="registro-container-cadastro">
           <form class="registro-form">
-            <h2>Cadastro:</h2>
-            <p>Registre-se para utilizar todas as funcionalidades da MedClinic</p>
+            <h2 class="registro-cadastro">Cadastro:</h2>
+            <p class="info-cadastro">Registre-se para utilizar todas as funcionalidades da MedClinic</p>
       
             <fieldset>
               <legend class="formulario__legenda">Informações básicas</legend>
@@ -119,6 +165,7 @@
 Coded by <a href="https://www.linkedin.com/in/gabriella-borges-a01b77249/">Gabriella Borges</a>.
 </footer>
 <!--<script src="./js/senhas.js"></script>-->
+<script src="./js/slider.js"></script>
 <script src="./js/validacao.js" type="module"></script>
 <script src="./js/app.js" type="module"></script>
 </body>
