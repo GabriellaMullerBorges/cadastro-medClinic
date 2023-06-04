@@ -6,7 +6,7 @@
 }
 
 .input:focus {
-  outline: none;
+  outline: none;  
 }
 
 .input:not(:placeholder-shown) + .input-label, .input:focus + .input-label {
@@ -23,7 +23,22 @@
   justify-content: flex-end;
   box-sizing: border-box;
 }
+.input-label{
+  margin-left: 1rem;
+}
 
 .input-label, :placeholder-shown{
-  font-size: 22px;
+  font-size: 18px;
+}
+
+input[type="text"] {
+  font-size: 18px;
+}
+
+input[type="date"] {
+  font-size: 18px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  font-size: 18px;
 }

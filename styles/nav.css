@@ -5,7 +5,12 @@ nav {
     background-color: #fafafa;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    color:rgb(0, 164, 189);
    
+  }
+
+  nav a{
+    color:rgb(0, 164, 189);
   }
   
   .lista-nav{
@@ -27,7 +32,9 @@ nav {
   .lista-nav li a{
     text-decoration: none;
   }
-  
+  .bionic-texto{
+    color:rgb(0, 164, 189);
+  }
   .logo-medclinic{
     scale: 0.5;
     width: fit-content;
@@ -36,4 +43,113 @@ nav {
   .logo-user{
     height: 20px;
     width: 20px;
+  }
+  
+  .menu-hamburguer{
+    display: none;
+  }
+
+
+  @media (max-width: 800px) {
+    .cabecalho__link {
+      display: none;
+    }
+
+    .bionic-reading{
+      display: none;
+    }
+  
+    .menu-hamburguer {
+      position:relative;
+      display: inline-block;
+    }
+
+    .hamburguer-icon .burguer-btn{
+      background-color:rgb(0, 164, 189);
+      color:white;
+      padding: 16px 24px;
+      font-size: 16px;
+      font-family: inherit;
+      border:none;
+      border-radius: 10px;
+      transition:0.3s;
+      cursor:pointer;
+    }
+
+    .menu{
+      background-color: rgb(177, 193, 190);
+      width: 150px !important;
+      border: 2px solid  rgb(149, 170, 172);;
+      color:white;
+      border-radius: 10px;
+      height: 30px;
+
+    }
+
+    .menu-hamburguer{
+      width: 150px !important;
+      display:block;
+      text-align: center;
+      height: 20px;
+    
+    }
+    
+    .menu-hamburguer-lista{
+      position:absolute;
+      background-color: rgb(213, 232, 234);
+      width: 150px;
+      box-shadow: 0 8px 12px 0 (0, 0, 0, 0.2);
+      z-index: -1;
+      opacity: 0;
+      border-radius: 10px;
+      transition:0.3s
+    }
+
+
+    .menu-hamburguer .menu-hamburguer-lista a{
+      display:block;
+      color:black;
+      padding: 10px 16px;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .menu-hamburguer .menu-hamburguer-lista a:hover{
+      background: #e3e3e3;
+    }
+
+    .menu-hamburguer:hover .burguer-btn{
+      background:rgb(0, 164, 189);
+    }
+
+    .menu-hamburguer .menu-hamburguer-lista {
+      opacity: 1;
+      z-index: 1;
+    }
+
+
+  }
+    /*
+    .hamburguer-icon {
+      width: 30px;
+      height: 5px;
+      background-color: #000;
+      margin-right: 10px;
+    }
+  
+    .menu-hamburguer-lista {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      padding: 10px;
+      list-style: none;
+    }
+  
+ .menu-hamburguer-lista {
+      display: block;
+    }
   }
