@@ -1,7 +1,7 @@
 
 export function valida(input) {
 
-    const tipoDeInput = input.dataset.tipo /*acessa o input, depois os datas do input e os tipos "tipo" do data*/
+    const tipoDeInput = input.dataset.tipo
 
     if(validadores[tipoDeInput]) {
         validadores[tipoDeInput](input)
@@ -16,7 +16,7 @@ export function valida(input) {
     }
 }
 
-const validadores = { /* esse objeto fala sobre os tipos de input que sofrerão validação específica*/
+const validadores = { 
     dataNascimento:input => validaDataNascimento(input), /* chama a função validadora */
     cpf:input => validaCPF(input),
     cep:input => recuperarCEP(input)
